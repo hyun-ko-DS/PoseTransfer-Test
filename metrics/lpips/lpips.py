@@ -8,7 +8,7 @@ LPIPS (Learned Perceptual Image Patch Similarity) 메트릭 구현
 import os
 import json
 from pathlib import Path
-from typing import Union, Dict, List, Optional
+from typing import Union, Dict, List, Optional, Tuple
 import numpy as np
 from PIL import Image
 
@@ -37,9 +37,14 @@ class LPIPSEvaluator:
                 "lpips 라이브러리가 필요합니다. 'pip install lpips'를 실행하세요."
             )
         
-        # 디바이스 설정
+        # 디바이스 설정 (우선순위: cuda > mps > cpu)
         if device is None:
-            device = 'cuda' if torch.cuda.is_available() else 'cpu'
+            if torch.cuda.is_available():
+                device = 'cuda'
+            elif hasattr(torch.backends, 'mps') and torch.backends.mps.is_available():
+                device = 'mps'
+            else:
+                device = 'cpu'
         self.device = device
         
         # LPIPS 모델 로드
@@ -48,12 +53,13 @@ class LPIPSEvaluator:
         
         print(f"✓ LPIPS 평가기 초기화 완료 (네트워크: {net}, 디바이스: {device})")
     
-    def _preprocess_image(self, img: Image.Image) -> torch.Tensor:
+    def _preprocess_image(self, img: Image.Image, target_size: Optional[Tuple[int, int]] = None) -> torch.Tensor:
         """
         PIL Image를 LPIPS 입력 형식으로 변환
         
         Args:
             img: PIL Image 객체
+            target_size: 리사이즈할 크기 (width, height), None이면 원본 크기 유지
         
         Returns:
             torch.Tensor: (1, 3, H, W) 형태의 텐서, 값 범위 [-1, 1]
@@ -61,6 +67,10 @@ class LPIPSEvaluator:
         # RGB로 변환
         if img.mode != 'RGB':
             img = img.convert('RGB')
+        
+        # 크기 조정 (필요한 경우)
+        if target_size is not None:
+            img = img.resize(target_size, Image.LANCZOS)
         
         # numpy 배열로 변환
         img_np = np.array(img).astype(np.float32)
@@ -88,9 +98,16 @@ class LPIPSEvaluator:
         Returns:
             float: LPIPS 점수 (0에 가까울수록 유사, 1에 가까울수록 다름)
         """
-        # 이미지 전처리
-        img0_tensor = self._preprocess_image(img0)
-        img1_tensor = self._preprocess_image(img1)
+        # 두 이미지의 크기를 맞춤 (더 작은 크기로 리사이즈)
+        size0 = img0.size  # (width, height)
+        size1 = img1.size
+        
+        # 두 이미지 중 더 작은 크기로 통일
+        target_size = (min(size0[0], size1[0]), min(size0[1], size1[1]))
+        
+        # 이미지 전처리 (크기 맞춤)
+        img0_tensor = self._preprocess_image(img0, target_size=target_size)
+        img1_tensor = self._preprocess_image(img1, target_size=target_size)
         
         # LPIPS 계산
         with torch.no_grad():
@@ -123,9 +140,19 @@ class LPIPSEvaluator:
 _evaluator: Optional[LPIPSEvaluator] = None
 
 
-def get_evaluator(net: str = 'alex', device: Optional[str] = None) -> LPIPSEvaluator:
+def get_evaluator(net: str = 'vgg', device: Optional[str] = None) -> LPIPSEvaluator:
     """LPIPS 평가기 싱글톤 인스턴스 반환"""
     global _evaluator
+    
+    # 디바이스 우선순위 설정 (cuda > mps > cpu)
+    if device is None:
+        if torch.cuda.is_available():
+            device = 'cuda'
+        elif hasattr(torch.backends, 'mps') and torch.backends.mps.is_available():
+            device = 'mps'
+        else:
+            device = 'cpu'
+    
     if _evaluator is None:
         _evaluator = LPIPSEvaluator(net=net, device=device)
     return _evaluator
@@ -134,7 +161,7 @@ def get_evaluator(net: str = 'alex', device: Optional[str] = None) -> LPIPSEvalu
 def calculate_lpips(
     original_image: Union[str, Path, Image.Image],
     generated_image: Union[str, Path, Image.Image],
-    net: str = 'alex',
+    net: str = 'vgg',
     device: Optional[str] = None
 ) -> float:
     """
