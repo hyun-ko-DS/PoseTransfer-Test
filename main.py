@@ -18,7 +18,7 @@ except ImportError:
     # python-dotenv가 설치되지 않은 경우 경고만 출력
     pass
 
-from models import NanoBanana, StableDiffusion, QwenControlnet
+from models import NanoBanana, QwenImageEdit, QwenControlnet
 from utils import (
     load_image,
     get_image_files,
@@ -30,7 +30,7 @@ from metrics.timer import elapse_time
 # 모델 및 프롬프트 설정
 MODELS = {
     "nano_banana": NanoBanana,
-    "stable_diffusion": StableDiffusion,
+    "qwen_image_edit": QwenImageEdit,
     "qwen_controlnet": QwenControlnet
 }
 
