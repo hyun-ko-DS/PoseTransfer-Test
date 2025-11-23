@@ -1,0 +1,1 @@
+Apply the keypoint pose to the given image.

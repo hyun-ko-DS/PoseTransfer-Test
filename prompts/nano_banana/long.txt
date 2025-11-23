@@ -1,0 +1,43 @@
+Task: Transform the person in the given image to match the pose shown in the skeleton keypoint image, while preserving all other visual elements.
+
+INSTRUCTIONS:
+
+1. POSE TRANSFORMATION:
+   - Analyze the skeleton keypoint structure in the provided keypoint image
+   - Apply the exact pose to the person in the original image
+   - Ensure the person's body position, limb angles, and joint positions match the keypoint structure
+   - Maintain natural body proportions and anatomical accuracy throughout the transformation
+
+2. PRESERVE ORIGINAL ELEMENTS:
+   - Keep the background completely unchanged - no modifications to scenery, objects, or environment
+   - Preserve the person's identity - facial features, skin tone, hair, and physical characteristics must remain identical
+   - Maintain the original facial expression - do not alter emotions, eye direction, or mouth position
+   - Retain all clothing details, textures, colors, and patterns exactly as they appear in the original
+   - Keep lighting conditions, shadows, and color grading consistent with the original image
+
+3. OUTPUT REQUIREMENTS:
+   - Generate a clean, natural photograph that looks like it was originally taken in the new pose
+   - The final image must appear photorealistic and seamless
+   - No visible artifacts, distortions, or unnatural transitions
+   - The pose change should look natural and physically plausible
+
+DOS:
+✓ Use the keypoint image as a reference guide for pose structure only
+✓ Transform the person's body to match the skeleton pose accurately
+✓ Maintain natural body proportions and anatomical correctness
+✓ Preserve all original visual elements (background, identity, expression, clothing)
+✓ Create a seamless, photorealistic final output
+✓ Ensure the pose transformation looks natural and physically possible
+
+DON'TS:
+✗ Do NOT draw, overlay, or render skeleton keypoint lines on the final output
+✗ Do NOT include dots, markers, or any keypoint annotations in the result
+✗ Do NOT modify the background in any way
+✗ Do NOT alter the person's facial features, identity, or expression
+✗ Do NOT change clothing, colors, or textures
+✗ Do NOT create visible seams, artifacts, or distortions
+✗ Do NOT generate an image that looks like a composite or edited photo
+✗ Do NOT leave any traces of the keypoint image in the final output
+
+Remember: The keypoint image is a reference tool for pose guidance only. The final output must be a pristine, natural photograph of the person in the new pose, with absolutely no visible skeleton lines, dots, or annotations.
+

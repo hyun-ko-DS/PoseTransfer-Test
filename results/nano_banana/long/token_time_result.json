@@ -1,0 +1,20 @@
+{
+  "results/nano_banana/long/full/bg/full_bg_1_kp_1.jpg": {
+    "generation_time": 19.2,
+    "total_tokens": 2311,
+    "input_tokens": 1038,
+    "output_tokens": 1273
+  },
+  "results/nano_banana/long/full/bg/full_bg_1_kp_2.jpg": {
+    "generation_time": 36.2,
+    "total_tokens": 2316,
+    "input_tokens": 1038,
+    "output_tokens": 1278
+  },
+  "results/nano_banana/long/full/bg/full_bg_1_kp_3.jpg": {
+    "generation_time": 28.7,
+    "total_tokens": 2313,
+    "input_tokens": 1038,
+    "output_tokens": 1275
+  }
+}

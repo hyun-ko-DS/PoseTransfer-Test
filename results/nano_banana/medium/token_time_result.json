@@ -1,0 +1,416 @@
+{
+  "results/nano_banana/medium/full/bg/full_bg_1_kp_1.jpg": {
+    "generation_time": 32.5,
+    "total_tokens": 1949,
+    "input_tokens": 657,
+    "output_tokens": 1292
+  },
+  "results/nano_banana/medium/full/bg/full_bg_1_kp_2.jpg": {
+    "generation_time": 29.8,
+    "total_tokens": 1932,
+    "input_tokens": 657,
+    "output_tokens": 1275
+  },
+  "results/nano_banana/medium/full/bg/full_bg_1_kp_3.jpg": {
+    "generation_time": 19.1,
+    "total_tokens": 1926,
+    "input_tokens": 657,
+    "output_tokens": 1269
+  },
+  "results/nano_banana/medium/full/bg/full_bg_2_kp_1.jpg": {
+    "generation_time": 25.6,
+    "total_tokens": 1918,
+    "input_tokens": 657,
+    "output_tokens": 1261
+  },
+  "results/nano_banana/medium/full/bg/full_bg_2_kp_2.jpg": {
+    "generation_time": 20.9,
+    "total_tokens": 1920,
+    "input_tokens": 657,
+    "output_tokens": 1263
+  },
+  "results/nano_banana/medium/full/bg/full_bg_2_kp_3.jpg": {
+    "generation_time": 26.8,
+    "total_tokens": 1945,
+    "input_tokens": 657,
+    "output_tokens": 1288
+  },
+  "results/nano_banana/medium/full/bg/full_bg_3_kp_1.jpg": {
+    "generation_time": 26.3,
+    "total_tokens": 1950,
+    "input_tokens": 657,
+    "output_tokens": 1293
+  },
+  "results/nano_banana/medium/full/bg/full_bg_3_kp_2.jpg": {
+    "generation_time": 31.3,
+    "total_tokens": 1943,
+    "input_tokens": 657,
+    "output_tokens": 1286
+  },
+  "results/nano_banana/medium/full/bg/full_bg_3_kp_3.jpg": {
+    "generation_time": 22.0,
+    "total_tokens": 1934,
+    "input_tokens": 657,
+    "output_tokens": 1277
+  },
+  "results/nano_banana/medium/full/bg/full_bg_4_kp_1.jpg": {
+    "generation_time": 29.9,
+    "total_tokens": 1922,
+    "input_tokens": 657,
+    "output_tokens": 1265
+  },
+  "results/nano_banana/medium/full/bg/full_bg_4_kp_2.jpg": {
+    "generation_time": 22.6,
+    "total_tokens": 1922,
+    "input_tokens": 657,
+    "output_tokens": 1265
+  },
+  "results/nano_banana/medium/full/bg/full_bg_4_kp_3.jpg": {
+    "generation_time": 20.8,
+    "total_tokens": 1942,
+    "input_tokens": 657,
+    "output_tokens": 1285
+  },
+  "results/nano_banana/medium/full/bg/full_bg_5_kp_1.jpg": {
+    "generation_time": 28.8,
+    "total_tokens": 1950,
+    "input_tokens": 657,
+    "output_tokens": 1293
+  },
+  "results/nano_banana/medium/full/bg/full_bg_5_kp_2.jpg": {
+    "generation_time": 36.0,
+    "total_tokens": 1916,
+    "input_tokens": 657,
+    "output_tokens": 1259
+  },
+  "results/nano_banana/medium/full/bg/full_bg_5_kp_3.jpg": {
+    "generation_time": 29.8,
+    "total_tokens": 1952,
+    "input_tokens": 657,
+    "output_tokens": 1295
+  },
+  "results/nano_banana/medium/full/no_bg/full_nobg_1_kp_1.jpg": {
+    "generation_time": 28.2,
+    "total_tokens": 1902,
+    "input_tokens": 657,
+    "output_tokens": 1245
+  },
+  "results/nano_banana/medium/full/no_bg/full_nobg_1_kp_2.jpg": {
+    "generation_time": 27.0,
+    "total_tokens": 1912,
+    "input_tokens": 657,
+    "output_tokens": 1255
+  },
+  "results/nano_banana/medium/full/no_bg/full_nobg_1_kp_3.jpg": {
+    "generation_time": 23.3,
+    "total_tokens": 1932,
+    "input_tokens": 657,
+    "output_tokens": 1275
+  },
+  "results/nano_banana/medium/full/no_bg/full_nobg_2_kp_1.jpg": {
+    "generation_time": 26.7,
+    "total_tokens": 1936,
+    "input_tokens": 657,
+    "output_tokens": 1279
+  },
+  "results/nano_banana/medium/full/no_bg/full_nobg_2_kp_2.jpg": {
+    "generation_time": 26.1,
+    "total_tokens": 1910,
+    "input_tokens": 657,
+    "output_tokens": 1253
+  },
+  "results/nano_banana/medium/full/no_bg/full_nobg_2_kp_3.jpg": {
+    "generation_time": 26.9,
+    "total_tokens": 1940,
+    "input_tokens": 657,
+    "output_tokens": 1283
+  },
+  "results/nano_banana/medium/full/no_bg/full_nobg_3_kp_1.jpg": {
+    "generation_time": 18.1,
+    "total_tokens": 1933,
+    "input_tokens": 657,
+    "output_tokens": 1276
+  },
+  "results/nano_banana/medium/full/no_bg/full_nobg_3_kp_2.jpg": {
+    "generation_time": 30.5,
+    "total_tokens": 1925,
+    "input_tokens": 657,
+    "output_tokens": 1268
+  },
+  "results/nano_banana/medium/full/no_bg/full_nobg_3_kp_3.jpg": {
+    "generation_time": 23.2,
+    "total_tokens": 1920,
+    "input_tokens": 657,
+    "output_tokens": 1263
+  },
+  "results/nano_banana/medium/full/no_bg/full_nobg_4_kp_1.jpg": {
+    "generation_time": 29.5,
+    "total_tokens": 1939,
+    "input_tokens": 657,
+    "output_tokens": 1282
+  },
+  "results/nano_banana/medium/full/no_bg/full_nobg_4_kp_2.jpg": {
+    "generation_time": 28.8,
+    "total_tokens": 1905,
+    "input_tokens": 657,
+    "output_tokens": 1248
+  },
+  "results/nano_banana/medium/full/no_bg/full_nobg_4_kp_3.jpg": {
+    "generation_time": 36.7,
+    "total_tokens": 1944,
+    "input_tokens": 657,
+    "output_tokens": 1287
+  },
+  "results/nano_banana/medium/full/no_bg/full_nobg_5_kp_1.jpg": {
+    "generation_time": 39.1,
+    "total_tokens": 1931,
+    "input_tokens": 657,
+    "output_tokens": 1274
+  },
+  "results/nano_banana/medium/full/no_bg/full_nobg_5_kp_2.jpg": {
+    "generation_time": 36.7,
+    "total_tokens": 1952,
+    "input_tokens": 657,
+    "output_tokens": 1295
+  },
+  "results/nano_banana/medium/full/no_bg/full_nobg_5_kp_3.jpg": {
+    "generation_time": 26.8,
+    "total_tokens": 1925,
+    "input_tokens": 657,
+    "output_tokens": 1268
+  },
+  "results/nano_banana/medium/half/bg/half_bg_1_kp_1.jpg": {
+    "generation_time": 25.8,
+    "total_tokens": 1914,
+    "input_tokens": 657,
+    "output_tokens": 1257
+  },
+  "results/nano_banana/medium/half/bg/half_bg_1_kp_2.jpg": {
+    "generation_time": 32.5,
+    "total_tokens": 1899,
+    "input_tokens": 657,
+    "output_tokens": 1242
+  },
+  "results/nano_banana/medium/half/bg/half_bg_1_kp_3.jpg": {
+    "generation_time": 25.3,
+    "total_tokens": 1919,
+    "input_tokens": 657,
+    "output_tokens": 1262
+  },
+  "results/nano_banana/medium/half/bg/half_bg_2_kp_1.jpg": {
+    "generation_time": 31.2,
+    "total_tokens": 1929,
+    "input_tokens": 657,
+    "output_tokens": 1272
+  },
+  "results/nano_banana/medium/half/bg/half_bg_2_kp_2.jpg": {
+    "generation_time": 27.1,
+    "total_tokens": 1918,
+    "input_tokens": 657,
+    "output_tokens": 1261
+  },
+  "results/nano_banana/medium/half/bg/half_bg_2_kp_3.jpg": {
+    "generation_time": 25.8,
+    "total_tokens": 1949,
+    "input_tokens": 657,
+    "output_tokens": 1292
+  },
+  "results/nano_banana/medium/half/bg/half_bg_4_kp_1.jpg": {
+    "generation_time": 19.0,
+    "total_tokens": 1954,
+    "input_tokens": 657,
+    "output_tokens": 1297
+  },
+  "results/nano_banana/medium/half/bg/half_bg_4_kp_2.jpg": {
+    "generation_time": 23.2,
+    "total_tokens": 1950,
+    "input_tokens": 657,
+    "output_tokens": 1293
+  },
+  "results/nano_banana/medium/half/bg/half_bg_4_kp_3.jpg": {
+    "generation_time": 22.2,
+    "total_tokens": 1958,
+    "input_tokens": 657,
+    "output_tokens": 1301
+  },
+  "results/nano_banana/medium/half/bg/half_bg_5_kp_1.jpg": {
+    "generation_time": 23.1,
+    "total_tokens": 1929,
+    "input_tokens": 657,
+    "output_tokens": 1272
+  },
+  "results/nano_banana/medium/half/bg/half_bg_5_kp_2.jpg": {
+    "generation_time": 24.8,
+    "total_tokens": 1910,
+    "input_tokens": 657,
+    "output_tokens": 1253
+  },
+  "results/nano_banana/medium/half/bg/half_bg_5_kp_3.jpg": {
+    "generation_time": 24.4,
+    "total_tokens": 1920,
+    "input_tokens": 657,
+    "output_tokens": 1263
+  },
+  "results/nano_banana/medium/half/no_bg/half_nobg_1_kp_1.jpg": {
+    "generation_time": 24.6,
+    "total_tokens": 1929,
+    "input_tokens": 657,
+    "output_tokens": 1272
+  },
+  "results/nano_banana/medium/half/no_bg/half_nobg_1_kp_2.jpg": {
+    "generation_time": 34.8,
+    "total_tokens": 1906,
+    "input_tokens": 657,
+    "output_tokens": 1249
+  },
+  "results/nano_banana/medium/half/no_bg/half_nobg_1_kp_3.jpg": {
+    "generation_time": 35.2,
+    "total_tokens": 1896,
+    "input_tokens": 657,
+    "output_tokens": 1239
+  },
+  "results/nano_banana/medium/half/no_bg/half_nobg_2_kp_1.jpg": {
+    "generation_time": 22.7,
+    "total_tokens": 1900,
+    "input_tokens": 657,
+    "output_tokens": 1243
+  },
+  "results/nano_banana/medium/half/no_bg/half_nobg_2_kp_2.jpg": {
+    "generation_time": 29.6,
+    "total_tokens": 1902,
+    "input_tokens": 657,
+    "output_tokens": 1245
+  },
+  "results/nano_banana/medium/half/no_bg/half_nobg_2_kp_3.jpg": {
+    "generation_time": 20.9,
+    "total_tokens": 1918,
+    "input_tokens": 657,
+    "output_tokens": 1261
+  },
+  "results/nano_banana/medium/half/no_bg/half_nobg_3_kp_1.jpg": {
+    "generation_time": 31.0,
+    "total_tokens": 1906,
+    "input_tokens": 657,
+    "output_tokens": 1249
+  },
+  "results/nano_banana/medium/half/no_bg/half_nobg_3_kp_2.jpg": {
+    "generation_time": 20.3,
+    "total_tokens": 1903,
+    "input_tokens": 657,
+    "output_tokens": 1246
+  },
+  "results/nano_banana/medium/half/no_bg/half_nobg_3_kp_3.jpg": {
+    "generation_time": 18.1,
+    "total_tokens": 1920,
+    "input_tokens": 657,
+    "output_tokens": 1263
+  },
+  "results/nano_banana/medium/half/no_bg/half_nobg_4_kp_1.jpg": {
+    "generation_time": 22.9,
+    "total_tokens": 1903,
+    "input_tokens": 657,
+    "output_tokens": 1246
+  },
+  "results/nano_banana/medium/half/no_bg/half_nobg_4_kp_2.jpg": {
+    "generation_time": 17.7,
+    "total_tokens": 1905,
+    "input_tokens": 657,
+    "output_tokens": 1248
+  },
+  "results/nano_banana/medium/half/no_bg/half_nobg_4_kp_3.jpg": {
+    "generation_time": 21.8,
+    "total_tokens": 1922,
+    "input_tokens": 657,
+    "output_tokens": 1265
+  },
+  "results/nano_banana/medium/half/no_bg/half_nobg_5_kp_1.jpg": {
+    "generation_time": 25.5,
+    "total_tokens": 1937,
+    "input_tokens": 657,
+    "output_tokens": 1280
+  },
+  "results/nano_banana/medium/half/no_bg/half_nobg_5_kp_2.jpg": {
+    "generation_time": 31.3,
+    "total_tokens": 1925,
+    "input_tokens": 657,
+    "output_tokens": 1268
+  },
+  "results/nano_banana/medium/half/no_bg/half_nobg_5_kp_3.jpg": {
+    "generation_time": 27.2,
+    "total_tokens": 1958,
+    "input_tokens": 657,
+    "output_tokens": 1301
+  },
+  "results/nano_banana/medium/selfie/selfie_1_kp_1.jpg": {
+    "generation_time": 22.1,
+    "total_tokens": 1922,
+    "input_tokens": 657,
+    "output_tokens": 1265
+  },
+  "results/nano_banana/medium/selfie/selfie_1_kp_2.jpg": {
+    "generation_time": 18.9,
+    "total_tokens": 1917,
+    "input_tokens": 657,
+    "output_tokens": 1260
+  },
+  "results/nano_banana/medium/selfie/selfie_1_kp_3.jpg": {
+    "generation_time": 27.7,
+    "total_tokens": 1923,
+    "input_tokens": 657,
+    "output_tokens": 1266
+  },
+  "results/nano_banana/medium/selfie/selfie_3_kp_1.jpg": {
+    "generation_time": 26.5,
+    "total_tokens": 1919,
+    "input_tokens": 657,
+    "output_tokens": 1262
+  },
+  "results/nano_banana/medium/selfie/selfie_3_kp_2.jpg": {
+    "generation_time": 30.7,
+    "total_tokens": 1924,
+    "input_tokens": 657,
+    "output_tokens": 1267
+  },
+  "results/nano_banana/medium/selfie/selfie_3_kp_3.jpg": {
+    "generation_time": 23.8,
+    "total_tokens": 1923,
+    "input_tokens": 657,
+    "output_tokens": 1266
+  },
+  "results/nano_banana/medium/selfie/selfie_4_kp_1.jpg": {
+    "generation_time": 29.6,
+    "total_tokens": 1938,
+    "input_tokens": 657,
+    "output_tokens": 1281
+  },
+  "results/nano_banana/medium/selfie/selfie_4_kp_2.jpg": {
+    "generation_time": 24.6,
+    "total_tokens": 1921,
+    "input_tokens": 657,
+    "output_tokens": 1264
+  },
+  "results/nano_banana/medium/selfie/selfie_4_kp_3.jpg": {
+    "generation_time": 26.0,
+    "total_tokens": 1934,
+    "input_tokens": 657,
+    "output_tokens": 1277
+  },
+  "results/nano_banana/medium/selfie/selfie_5_kp_1.jpg": {
+    "generation_time": 26.3,
+    "total_tokens": 1927,
+    "input_tokens": 657,
+    "output_tokens": 1270
+  },
+  "results/nano_banana/medium/selfie/selfie_5_kp_2.jpg": {
+    "generation_time": 25.0,
+    "total_tokens": 1902,
+    "input_tokens": 657,
+    "output_tokens": 1245
+  },
+  "results/nano_banana/medium/selfie/selfie_5_kp_3.jpg": {
+    "generation_time": 28.3,
+    "total_tokens": 1917,
+    "input_tokens": 657,
+    "output_tokens": 1260
+  }
+}
