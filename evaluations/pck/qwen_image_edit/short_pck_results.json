@@ -1,0 +1,766 @@
+{
+  "model": "qwen_image_edit",
+  "prompt_version": "short",
+  "statistics": {
+    "mean_pck_0.1": 0.0,
+    "mean_pck_0.2": 0.0705,
+    "mean_pckh_0.5": 0.0544,
+    "std_pck_0.1": 0.0,
+    "std_pck_0.2": 0.1259,
+    "std_pckh_0.5": 0.1249,
+    "total_images": 75
+  },
+  "results": [
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/full/bg/full_bg_4_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_2_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "bg",
+      "kp_num": "2",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/full/bg/full_bg_2_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_3_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "bg",
+      "kp_num": "3",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/full/bg/full_bg_5_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_2_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "bg",
+      "kp_num": "2",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/full/bg/full_bg_3_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_3_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "bg",
+      "kp_num": "3",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/full/bg/full_bg_1_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_3_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "bg",
+      "kp_num": "3",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/full/bg/full_bg_1_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_2_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "bg",
+      "kp_num": "2",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/full/bg/full_bg_3_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_2_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "bg",
+      "kp_num": "2",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/full/bg/full_bg_5_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_3_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "bg",
+      "kp_num": "3",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/full/bg/full_bg_2_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_2_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "bg",
+      "kp_num": "2",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/full/bg/full_bg_4_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_3_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "bg",
+      "kp_num": "3",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/full/bg/full_bg_5_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_1_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "bg",
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.125,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/full/bg/full_bg_4_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_1_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "bg",
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0556,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/full/bg/full_bg_1_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_1_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "bg",
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/full/bg/full_bg_2_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_1_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "bg",
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/full/bg/full_bg_3_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_1_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "bg",
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.1364,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/full/no_bg/full_nobg_5_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_1_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "no_bg",
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.2083,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/full/no_bg/full_nobg_4_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_1_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "no_bg",
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.1667,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/full/no_bg/full_nobg_2_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_1_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "no_bg",
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.25,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/full/no_bg/full_nobg_3_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_1_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "no_bg",
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.125,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/full/no_bg/full_nobg_1_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_1_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "no_bg",
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.125,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/full/no_bg/full_nobg_1_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_3_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "no_bg",
+      "kp_num": "3",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/full/no_bg/full_nobg_2_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_3_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "no_bg",
+      "kp_num": "3",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/full/no_bg/full_nobg_4_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_2_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "no_bg",
+      "kp_num": "2",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/full/no_bg/full_nobg_3_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_3_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "no_bg",
+      "kp_num": "3",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/full/no_bg/full_nobg_5_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_2_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "no_bg",
+      "kp_num": "2",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/full/no_bg/full_nobg_5_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_3_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "no_bg",
+      "kp_num": "3",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/full/no_bg/full_nobg_3_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_2_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "no_bg",
+      "kp_num": "2",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/full/no_bg/full_nobg_4_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_3_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "no_bg",
+      "kp_num": "3",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/full/no_bg/full_nobg_2_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_2_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "no_bg",
+      "kp_num": "2",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/full/no_bg/full_nobg_1_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_2_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "no_bg",
+      "kp_num": "2",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/half/bg/half_bg_1_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_3_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "bg",
+      "kp_num": "3",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/half/bg/half_bg_4_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_2_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "bg",
+      "kp_num": "2",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/half/bg/half_bg_2_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_3_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "bg",
+      "kp_num": "3",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/half/bg/half_bg_5_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_2_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "bg",
+      "kp_num": "2",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/half/bg/half_bg_3_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_3_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "bg",
+      "kp_num": "3",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/half/bg/half_bg_3_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_2_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "bg",
+      "kp_num": "2",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/half/bg/half_bg_5_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_3_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "bg",
+      "kp_num": "3",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/half/bg/half_bg_2_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_2_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "bg",
+      "kp_num": "2",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/half/bg/half_bg_4_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_3_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "bg",
+      "kp_num": "3",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/half/bg/half_bg_1_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_2_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "bg",
+      "kp_num": "2",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/half/bg/half_bg_5_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_1_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "bg",
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.3333,
+      "pckh_0.5": 0.3333
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/half/bg/half_bg_4_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_1_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "bg",
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.4667,
+      "pckh_0.5": 0.4667
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/half/bg/half_bg_2_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_1_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "bg",
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.25,
+      "pckh_0.5": 0.25
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/half/bg/half_bg_3_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_1_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "bg",
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.4,
+      "pckh_0.5": 0.4
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/half/bg/half_bg_1_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_1_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "bg",
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.4667,
+      "pckh_0.5": 0.4667
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/half/no_bg/half_nobg_1_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_2_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "no_bg",
+      "kp_num": "2",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/half/no_bg/half_nobg_4_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_3_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "no_bg",
+      "kp_num": "3",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/half/no_bg/half_nobg_2_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_2_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "no_bg",
+      "kp_num": "2",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/half/no_bg/half_nobg_5_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_3_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "no_bg",
+      "kp_num": "3",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/half/no_bg/half_nobg_3_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_2_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "no_bg",
+      "kp_num": "2",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/half/no_bg/half_nobg_3_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_3_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "no_bg",
+      "kp_num": "3",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/half/no_bg/half_nobg_5_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_2_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "no_bg",
+      "kp_num": "2",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0833,
+      "pckh_0.5": 0.0833
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/half/no_bg/half_nobg_2_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_3_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "no_bg",
+      "kp_num": "3",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/half/no_bg/half_nobg_4_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_2_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "no_bg",
+      "kp_num": "2",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/half/no_bg/half_nobg_1_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_3_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "no_bg",
+      "kp_num": "3",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/half/no_bg/half_nobg_1_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_1_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "no_bg",
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.4,
+      "pckh_0.5": 0.4
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/half/no_bg/half_nobg_3_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_1_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "no_bg",
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0625,
+      "pckh_0.5": 0.0625
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/half/no_bg/half_nobg_2_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_1_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "no_bg",
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.25,
+      "pckh_0.5": 0.25
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/half/no_bg/half_nobg_4_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_1_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "no_bg",
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.2667,
+      "pckh_0.5": 0.3333
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/half/no_bg/half_nobg_5_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_1_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "no_bg",
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/selfie/selfie_1_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_3_origin_keypoints.json",
+      "image_type": "selfie",
+      "bg_type": null,
+      "kp_num": "3",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/selfie/selfie_3_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_3_origin_keypoints.json",
+      "image_type": "selfie",
+      "bg_type": null,
+      "kp_num": "3",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/selfie/selfie_5_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_2_origin_keypoints.json",
+      "image_type": "selfie",
+      "bg_type": null,
+      "kp_num": "2",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/selfie/selfie_2_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_3_origin_keypoints.json",
+      "image_type": "selfie",
+      "bg_type": null,
+      "kp_num": "3",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/selfie/selfie_4_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_2_origin_keypoints.json",
+      "image_type": "selfie",
+      "bg_type": null,
+      "kp_num": "2",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.1818,
+      "pckh_0.5": 0.1818
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/selfie/selfie_4_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_3_origin_keypoints.json",
+      "image_type": "selfie",
+      "bg_type": null,
+      "kp_num": "3",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/selfie/selfie_2_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_2_origin_keypoints.json",
+      "image_type": "selfie",
+      "bg_type": null,
+      "kp_num": "2",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/selfie/selfie_5_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_3_origin_keypoints.json",
+      "image_type": "selfie",
+      "bg_type": null,
+      "kp_num": "3",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/selfie/selfie_3_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_2_origin_keypoints.json",
+      "image_type": "selfie",
+      "bg_type": null,
+      "kp_num": "2",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/selfie/selfie_1_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_2_origin_keypoints.json",
+      "image_type": "selfie",
+      "bg_type": null,
+      "kp_num": "2",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0833,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/selfie/selfie_4_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_1_origin_keypoints.json",
+      "image_type": "selfie",
+      "bg_type": null,
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.3333,
+      "pckh_0.5": 0.3333
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/selfie/selfie_5_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_1_origin_keypoints.json",
+      "image_type": "selfie",
+      "bg_type": null,
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.2667,
+      "pckh_0.5": 0.2667
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/selfie/selfie_3_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_1_origin_keypoints.json",
+      "image_type": "selfie",
+      "bg_type": null,
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/selfie/selfie_2_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_1_origin_keypoints.json",
+      "image_type": "selfie",
+      "bg_type": null,
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.25,
+      "pckh_0.5": 0.25
+    },
+    {
+      "generated_json": "extracted_keypoints/qwen_image_edit/short/selfie/selfie_1_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_1_origin_keypoints.json",
+      "image_type": "selfie",
+      "bg_type": null,
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    }
+  ],
+  "timestamp": "2025-11-25T14:38:37.951265"
+}

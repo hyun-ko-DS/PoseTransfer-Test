@@ -5,8 +5,8 @@ Stable Diffusion 모델 클래스
 from pathlib import Path
 from PIL import Image
 
-# TODO: Stable Diffusion 구현 필요
-class StableDiffusion:
+# TODO: Qwen Image Edit 구현 필요
+class QwenImageEdit:
     def __init__(self, prompt_file_path):
         self.prompt_file_path = prompt_file_path
         with open(self.prompt_file_path, "r") as f:
@@ -29,5 +29,5 @@ class StableDiffusion:
             prompt = self.prompt
         
         # TODO: Stable Diffusion API 호출 구현
-        raise NotImplementedError("StableDiffusion.generate() 메서드가 아직 구현되지 않았습니다.")
+        raise NotImplementedError("QwenImageEdit.generate() 메서드가 아직 구현되지 않았습니다.")
 

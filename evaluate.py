@@ -44,12 +44,23 @@ def find_result_image(
     Returns:
         결과 이미지 경로 또는 None
     """
-    if bg_type:
-        result_path = Path(f"results/{model_name}/{prompt_version}/{image_type}/{bg_type}/{image_name}_kp_{kp_num}.jpg")
-    else:
-        result_path = Path(f"results/{model_name}/{prompt_version}/{image_type}/{image_name}_kp_{kp_num}.jpg")
+    # 확장자 목록
+    extensions = [".jpg", ".jpeg", ".png"]
     
-    return result_path if result_path.exists() else None
+    if bg_type:
+        base_dir = Path(f"results/{model_name}/{prompt_version}/{image_type}/{bg_type}")
+        base_name = f"{image_name}_kp_{kp_num}"
+    else:
+        base_dir = Path(f"results/{model_name}/{prompt_version}/{image_type}")
+        base_name = f"{image_name}_kp_{kp_num}"
+    
+    # 여러 확장자 시도
+    for ext in extensions:
+        result_path = base_dir / f"{base_name}{ext}"
+        if result_path.exists():
+            return result_path
+    
+    return None
 
 
 def evaluate_lpips_metric(

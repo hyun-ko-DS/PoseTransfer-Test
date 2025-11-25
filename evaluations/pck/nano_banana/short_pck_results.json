@@ -1,0 +1,726 @@
+{
+  "model": "nano_banana",
+  "prompt_version": "short",
+  "statistics": {
+    "mean_pck_0.1": 0.2857,
+    "mean_pck_0.2": 0.4309,
+    "mean_pckh_0.5": 0.009,
+    "std_pck_0.1": 0.3518,
+    "std_pck_0.2": 0.4703,
+    "std_pckh_0.5": 0.0311,
+    "total_images": 71
+  },
+  "results": [
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/full/bg/full_bg_4_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_2_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "bg",
+      "kp_num": "2",
+      "pck_0.1": 0.0,
+      "pck_0.2": 1.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/full/bg/full_bg_2_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_3_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "bg",
+      "kp_num": "3",
+      "pck_0.1": 0.76,
+      "pck_0.2": 0.96,
+      "pckh_0.5": 0.16
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/full/bg/full_bg_5_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_2_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "bg",
+      "kp_num": "2",
+      "pck_0.1": 0.375,
+      "pck_0.2": 0.9583,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/full/bg/full_bg_3_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_3_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "bg",
+      "kp_num": "3",
+      "pck_0.1": 0.04,
+      "pck_0.2": 0.44,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/full/bg/full_bg_1_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_3_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "bg",
+      "kp_num": "3",
+      "pck_0.1": 0.875,
+      "pck_0.2": 0.9167,
+      "pckh_0.5": 0.0417
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/full/bg/full_bg_1_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_2_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "bg",
+      "kp_num": "2",
+      "pck_0.1": 0.8,
+      "pck_0.2": 1.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/full/bg/full_bg_3_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_2_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "bg",
+      "kp_num": "2",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.56,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/full/bg/full_bg_5_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_3_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "bg",
+      "kp_num": "3",
+      "pck_0.1": 0.5417,
+      "pck_0.2": 0.75,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/full/bg/full_bg_2_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_2_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "bg",
+      "kp_num": "2",
+      "pck_0.1": 0.4583,
+      "pck_0.2": 1.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/full/bg/full_bg_4_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_3_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "bg",
+      "kp_num": "3",
+      "pck_0.1": 0.25,
+      "pck_0.2": 0.875,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/full/bg/full_bg_5_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_1_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "bg",
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/full/bg/full_bg_4_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_1_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "bg",
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/full/bg/full_bg_1_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_1_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "bg",
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/full/bg/full_bg_2_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_1_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "bg",
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/full/bg/full_bg_3_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_1_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "bg",
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/full/no_bg/full_nobg_5_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_1_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "no_bg",
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/full/no_bg/full_nobg_4_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_1_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "no_bg",
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/full/no_bg/full_nobg_2_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_1_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "no_bg",
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/full/no_bg/full_nobg_3_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_1_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "no_bg",
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/full/no_bg/full_nobg_1_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_1_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "no_bg",
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/full/no_bg/full_nobg_1_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_3_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "no_bg",
+      "kp_num": "3",
+      "pck_0.1": 0.7143,
+      "pck_0.2": 0.8571,
+      "pckh_0.5": 0.0952
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/full/no_bg/full_nobg_2_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_3_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "no_bg",
+      "kp_num": "3",
+      "pck_0.1": 0.84,
+      "pck_0.2": 0.92,
+      "pckh_0.5": 0.16
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/full/no_bg/full_nobg_4_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_2_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "no_bg",
+      "kp_num": "2",
+      "pck_0.1": 0.5,
+      "pck_0.2": 1.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/full/no_bg/full_nobg_3_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_3_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "no_bg",
+      "kp_num": "3",
+      "pck_0.1": 0.5455,
+      "pck_0.2": 0.9545,
+      "pckh_0.5": 0.0909
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/full/no_bg/full_nobg_5_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_2_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "no_bg",
+      "kp_num": "2",
+      "pck_0.1": 0.5833,
+      "pck_0.2": 1.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/full/no_bg/full_nobg_5_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_3_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "no_bg",
+      "kp_num": "3",
+      "pck_0.1": 0.9167,
+      "pck_0.2": 0.9167,
+      "pckh_0.5": 0.0417
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/full/no_bg/full_nobg_3_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_2_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "no_bg",
+      "kp_num": "2",
+      "pck_0.1": 0.56,
+      "pck_0.2": 1.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/full/no_bg/full_nobg_4_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_3_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "no_bg",
+      "kp_num": "3",
+      "pck_0.1": 0.8571,
+      "pck_0.2": 0.8571,
+      "pckh_0.5": 0.0476
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/full/no_bg/full_nobg_2_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_2_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "no_bg",
+      "kp_num": "2",
+      "pck_0.1": 0.6,
+      "pck_0.2": 1.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/full/no_bg/full_nobg_1_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/full/kp_full_2_origin_keypoints.json",
+      "image_type": "full",
+      "bg_type": "no_bg",
+      "kp_num": "2",
+      "pck_0.1": 0.5833,
+      "pck_0.2": 1.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/half/bg/half_bg_1_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_3_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "bg",
+      "kp_num": "3",
+      "pck_0.1": 0.8,
+      "pck_0.2": 1.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/half/bg/half_bg_4_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_2_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "bg",
+      "kp_num": "2",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/half/bg/half_bg_2_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_3_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "bg",
+      "kp_num": "3",
+      "pck_0.1": 0.8182,
+      "pck_0.2": 1.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/half/bg/half_bg_5_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_2_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "bg",
+      "kp_num": "2",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/half/bg/half_bg_5_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_3_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "bg",
+      "kp_num": "3",
+      "pck_0.1": 0.8182,
+      "pck_0.2": 1.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/half/bg/half_bg_2_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_2_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "bg",
+      "kp_num": "2",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/half/bg/half_bg_4_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_3_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "bg",
+      "kp_num": "3",
+      "pck_0.1": 0.7,
+      "pck_0.2": 0.9,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/half/bg/half_bg_1_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_2_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "bg",
+      "kp_num": "2",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/half/bg/half_bg_5_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_1_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "bg",
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/half/bg/half_bg_4_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_1_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "bg",
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/half/bg/half_bg_2_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_1_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "bg",
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/half/bg/half_bg_3_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_1_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "bg",
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/half/bg/half_bg_1_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_1_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "bg",
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/half/no_bg/half_nobg_1_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_2_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "no_bg",
+      "kp_num": "2",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/half/no_bg/half_nobg_4_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_3_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "no_bg",
+      "kp_num": "3",
+      "pck_0.1": 0.4545,
+      "pck_0.2": 0.8182,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/half/no_bg/half_nobg_2_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_2_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "no_bg",
+      "kp_num": "2",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/half/no_bg/half_nobg_5_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_3_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "no_bg",
+      "kp_num": "3",
+      "pck_0.1": 0.9,
+      "pck_0.2": 1.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/half/no_bg/half_nobg_3_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_2_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "no_bg",
+      "kp_num": "2",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/half/no_bg/half_nobg_3_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_3_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "no_bg",
+      "kp_num": "3",
+      "pck_0.1": 1.0,
+      "pck_0.2": 1.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/half/no_bg/half_nobg_5_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_2_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "no_bg",
+      "kp_num": "2",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/half/no_bg/half_nobg_2_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_3_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "no_bg",
+      "kp_num": "3",
+      "pck_0.1": 0.5455,
+      "pck_0.2": 0.9091,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/half/no_bg/half_nobg_4_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_2_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "no_bg",
+      "kp_num": "2",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/half/no_bg/half_nobg_1_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_3_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "no_bg",
+      "kp_num": "3",
+      "pck_0.1": 0.8182,
+      "pck_0.2": 1.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/half/no_bg/half_nobg_1_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_1_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "no_bg",
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/half/no_bg/half_nobg_3_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_1_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "no_bg",
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/half/no_bg/half_nobg_2_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_1_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "no_bg",
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/half/no_bg/half_nobg_4_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_1_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "no_bg",
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/half/no_bg/half_nobg_5_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_1_origin_keypoints.json",
+      "image_type": "half",
+      "bg_type": "no_bg",
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/selfie/selfie_1_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_3_origin_keypoints.json",
+      "image_type": "selfie",
+      "bg_type": null,
+      "kp_num": "3",
+      "pck_0.1": 0.5455,
+      "pck_0.2": 1.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/selfie/selfie_3_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_3_origin_keypoints.json",
+      "image_type": "selfie",
+      "bg_type": null,
+      "kp_num": "3",
+      "pck_0.1": 0.6667,
+      "pck_0.2": 1.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/selfie/selfie_5_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_2_origin_keypoints.json",
+      "image_type": "selfie",
+      "bg_type": null,
+      "kp_num": "2",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/selfie/selfie_4_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_2_origin_keypoints.json",
+      "image_type": "selfie",
+      "bg_type": null,
+      "kp_num": "2",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/selfie/selfie_4_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_3_origin_keypoints.json",
+      "image_type": "selfie",
+      "bg_type": null,
+      "kp_num": "3",
+      "pck_0.1": 0.7143,
+      "pck_0.2": 1.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/selfie/selfie_2_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_2_origin_keypoints.json",
+      "image_type": "selfie",
+      "bg_type": null,
+      "kp_num": "2",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/selfie/selfie_5_kp_3_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_3_origin_keypoints.json",
+      "image_type": "selfie",
+      "bg_type": null,
+      "kp_num": "3",
+      "pck_0.1": 0.7,
+      "pck_0.2": 1.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/selfie/selfie_3_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_2_origin_keypoints.json",
+      "image_type": "selfie",
+      "bg_type": null,
+      "kp_num": "2",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/selfie/selfie_1_kp_2_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_2_origin_keypoints.json",
+      "image_type": "selfie",
+      "bg_type": null,
+      "kp_num": "2",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/selfie/selfie_4_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_1_origin_keypoints.json",
+      "image_type": "selfie",
+      "bg_type": null,
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/selfie/selfie_5_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_1_origin_keypoints.json",
+      "image_type": "selfie",
+      "bg_type": null,
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/selfie/selfie_3_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_1_origin_keypoints.json",
+      "image_type": "selfie",
+      "bg_type": null,
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    },
+    {
+      "generated_json": "extracted_keypoints/nano_banana/short/selfie/selfie_1_kp_1_keypoints.json",
+      "original_json": "extracted_keypoints/original/half/kp_half_1_origin_keypoints.json",
+      "image_type": "selfie",
+      "bg_type": null,
+      "kp_num": "1",
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0,
+      "pckh_0.5": 0.0
+    }
+  ],
+  "timestamp": "2025-11-25T14:38:28.116848"
+}
